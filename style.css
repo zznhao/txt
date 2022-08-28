@@ -72,7 +72,7 @@ a {
     padding: 8px 70px;
     color: #f9faf8;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 /* header header heaer*/
@@ -90,8 +90,8 @@ a {
 .profile {
     width: 180px;
     height: auto;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 .members-heading {
@@ -145,8 +145,62 @@ a {
 
 /* quote quote quote*/
 
-/* call to action*/
+/* join us*/
 
+.join-us-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.join-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #df2241;
+    margin: 50px;
+    padding: 40px 150px;
+    gap: 100px;
+    border-radius: 10px;
+}
 
-/* call to action*/
+.join-us-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.join-us-information {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.join-us-button {
+    background-color: #df2241;
+    border:2px solid #f9faf8;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+/* join us*/
+
+/* footer footer footer*/
+
+.footer-card {
+    background-color: #6c645c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 18px;
+    color: #d3cbbb;
+    margin: 30px;
+}
+
+/* footer footer footer*/
